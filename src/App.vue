@@ -1,16 +1,17 @@
 <template>
-  <div id="app" class="bg-indigo-800 flex items-center justify-center h-screen">
-    <div class="text-white font-bold p-10">
-      <h2 class="text-6xl text-center">Vue TailwindCSS Playground</h2>
-    </div>
+  <div id="app" class="bg-indigo-400  h-screen">
+    <div class="">
+      <prueba></prueba>
+    </div> 
   </div>
 </template>
 
 <script>
+import prueba from "@/components/Prueba";
 export default {
   name: "App",
   components: {
-    //
+    prueba
   }
 };
 </script>
